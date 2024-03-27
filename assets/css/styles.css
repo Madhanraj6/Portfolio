@@ -514,3 +514,13 @@ img {
       display: none;
   }
 }
+@media screen and (max-width: 768px) {
+  .nav__menu {
+      display: none; /* Hide the menu by default on small screens */
+  }
+
+  .nav__menu.show {
+      display: block; /* Show the menu when the 'show' class is applied */
+  }
+}
+
