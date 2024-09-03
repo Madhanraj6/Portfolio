@@ -524,3 +524,35 @@ img {
   }
 }
 
+.skills-section {
+  padding: 40px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+.skills-section .section-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.skills-section .skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.skills-section .skills-container .skill {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.skills-section .skills-container .skill h3 {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+.skills-section .skills-container .skill p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
